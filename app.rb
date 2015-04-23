@@ -1,7 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
-require('rspec')
-
+require('./lib/coin_count')
 
 get('/') do
   erb(:index)
