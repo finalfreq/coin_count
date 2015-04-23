@@ -4,14 +4,16 @@ This project allows a user to input the amount of money they have and get the va
 
 ## Installation
 Add the following to your gem file
-```gem('sinatra')
+```
+gem('sinatra')
 gem('sinatra-contrib')
 gem('pry')
 gem('rspec')
 gem('capybara')
 ```
 Run the following command
-```bundle install
+```
+bundle install
 ```
 
 ## Usage
