@@ -15,7 +15,10 @@ describe('Fixnum#coin_count') do
     expect(85.coin_count()).to(eq("3 quarters 1 dimes"))
   end
 
-
+  it('takes the amount of change and prints out the number of quarters, dimes and nickles') do
+    expect(90.coin_count()).to(eq("3 quarters 1 dimes 1 nickle"))
+  end
+  
   # it('takes the amount of change and tells you how many quarters, dimes, nickles, and pennies you have') do
   #   expect(88.coin_count()).to(eq("Three quarters, one dime. three pennies"))
   # end
