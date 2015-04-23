@@ -7,5 +7,6 @@ get('/') do
 end
 
 get('/results') do
-  @change = params.fetch('results').coin_count()
+  @change = params.fetch('money').to_f().coin_count()
   erb(:results)
+end
