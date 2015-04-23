@@ -10,3 +10,22 @@ gem('pry')
 gem('rspec')
 gem('capybara')
 ```
+Run the following command
+```bundle install
+```
+
+## Usage
+
+To use the app enter the amount of money into the form and click "send". To make edits
+
+### Bug reports
+
+If you discover any bugs, feel free to create an issue on GitHub. Please add as much information as
+possible to help us fixing the possible bug. We also encourage you to help even more by forking and
+sending us a pull request.
+
+## Maintainers
+1. James Williams (https://github.com/finalfreq)
+2. Andrew Lee (https://github.com/andrewlhy)
+## License
+MIT License. Copyright 2009-2015
