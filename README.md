@@ -27,5 +27,6 @@ sending us a pull request.
 ## Maintainers
 1. James Williams (https://github.com/finalfreq)
 2. Andrew Lee (https://github.com/andrewlhy)
+
 ## License
 MIT License. Copyright 2015
